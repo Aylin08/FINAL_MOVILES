@@ -1,13 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
+
 import 'package:proyectofinal/models/spoon_model.dart';
 
 class SpoonServices extends ChangeNotifier {
-  //https://api.spoonacular.com/recipes/716429/information?apiKey=52e77738a0d74c6f8778b22966fda486&includeNutrition=true.json
-  //https://api.spoonacular.com/recipes/mealplans/generate?apiKey=52e77738a0d74c6f8778b22966fda486&includeNutrition=true.json
-  // https://api.spoonacular.com/recipes/716429/information?apiKey=YOUR-API-KEY&includeNutrition=true.
   final String _url = "api.calorieninjas.com";
-  final String _apiKey = "EVQefKMJXT7+nJvI3IMxpQ==ZX4To3XzKpYGRpRW";
+  final String _apiKey = "4sliGPzmrp3eM1pEnTPg9g==T566RS7neBUaJCYv";
 
   List<Item> propiedad = [];
 
@@ -26,10 +24,10 @@ class SpoonServices extends ChangeNotifier {
       final dieta = Dieta.fromJson(response.body);
       propiedad = dieta.items!;
 
-      // print(response.body);
+      //print(response.body);
       notifyListeners();
     } catch (e) {
-      print(e);
+      /// print(e);
     }
   }
 }

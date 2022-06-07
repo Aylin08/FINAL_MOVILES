@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:proyectofinal/routes/movPages.dart';
+import 'package:proyectofinal/routes/movpages.dart';
 import 'package:proyectofinal/screens/home.dart';
 
 import 'package:proyectofinal/services/spoon_services.dart';

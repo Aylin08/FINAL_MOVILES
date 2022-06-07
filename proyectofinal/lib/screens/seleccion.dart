@@ -95,7 +95,7 @@ class _SeleccionState extends State<Seleccion> {
                       imagen: "assets/img/tips.png"),
                   CardRow(
                       ban: "Notas",
-                      dire: Routes.tips,
+                      dire: Routes.notas,
                       imagen: "assets/img/notas.png")
                 ],
               ),

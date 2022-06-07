@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Tips extends StatelessWidget {
-  const Tips({Key? key}) : super(key: key);
+class Notas extends StatelessWidget {
+  const Notas({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Expanded(
       child: Scaffold(
-        appBar: AppBar(title: const Text("Tips Alimenticios")),
+        appBar: AppBar(title: const Text("Notas Alimenticios")),
         body: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(

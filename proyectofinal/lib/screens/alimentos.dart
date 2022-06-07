@@ -28,16 +28,14 @@ class Alimentos extends StatelessWidget {
               Row(
                 children: const [
                   Image(
-                      image: NetworkImage(
-                          "https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/two%20oranges%20-8070-2c889df9befc3ae5e5fa4d3a3eb9f8e4@1x.jpg"),
+                      image: AssetImage("assets/img/orange.png"),
                       width: 170,
                       height: 117),
                   SizedBox(
                     width: 5,
                   ),
                   Image(
-                    image: NetworkImage(
-                        "https://media.istockphoto.com/photos/pouring-milk-in-the-glass-on-the-background-of-nature-picture-id535489242?k=20&m=535489242&s=612x612&w=0&h=MiVwb66VYM4fonRyt3UXDm_U9cUJNj1GbHjc_bqn5Jw="),
+                    image: AssetImage("assets/img/milk.png"),
                     width: 170,
                     height: 135,
                   ),
@@ -83,16 +81,14 @@ class Alimentos extends StatelessWidget {
               Row(
                 children: const [
                   Image(
-                      image: NetworkImage(
-                          "https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/two%20oranges%20-8070-2c889df9befc3ae5e5fa4d3a3eb9f8e4@1x.jpg"),
+                      image: AssetImage("assets/img/potato.png"),
                       width: 170,
                       height: 117),
                   SizedBox(
                     width: 5,
                   ),
                   Image(
-                    image: NetworkImage(
-                        "https://media.istockphoto.com/photos/pouring-milk-in-the-glass-on-the-background-of-nature-picture-id535489242?k=20&m=535489242&s=612x612&w=0&h=MiVwb66VYM4fonRyt3UXDm_U9cUJNj1GbHjc_bqn5Jw="),
+                    image: AssetImage("assets/img/carrots.png"),
                     width: 170,
                     height: 135,
                   ),
